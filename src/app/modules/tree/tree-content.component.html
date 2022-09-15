@@ -1,0 +1,10 @@
+<div *ngIf="!!rootFolder" class="content">
+  <div *ngFor="let f of rootFolder.content">
+    <app-file *ngIf="isFile(f)"
+              (select)="onSelectedItem($event)"
+              [file]="f"></app-file>
+    <app-folder *ngIf="!isFile(f)"
+                (select)="onSelectedItem($event)"
+                [folder]="f"></app-folder>
+  </div>
+</div>

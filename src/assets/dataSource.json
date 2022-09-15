@@ -1,0 +1,102 @@
+{
+  "name": "root",
+  "isFolder": true,
+  "content": [
+    {
+      "isFolder": true,
+      "name": "Movies",
+      "content": [
+        {
+          "isFolder": true,
+          "name": "Novelties",
+          "content": [
+            {
+              "isFolder": false,
+              "name": "Duna.mp4",
+              "content": "The Atreides arrive on a planet where no one welcomes them. The fantastic epic of Denis Villeneuve with six Oscars"
+            }
+          ]
+        },
+        {
+          "isFolder": true,
+          "name": "Will watch",
+          "content": []
+        },
+        {
+          "isFolder": true,
+          "name": "Old",
+          "content": [
+            {
+              "isFolder": false,
+              "name": "Casablanca.mp4",
+              "content": "Casablanca"
+            }
+          ]
+        },
+        {
+          "isFolder": false,
+          "name": "Okno_vo_dvor.mp4",
+          "content": "A photographer with a broken leg is watching the life of his neighbors through the lens. Voyeuristic thriller by Alfred Hitchcock"
+        }
+      ]
+    },
+    {
+      "isFolder": true,
+      "name": "Telegram Desktop",
+      "content": [
+        {
+          "isFolder": true,
+          "name": "Photos",
+          "content": [
+            {
+              "isFolder": true,
+              "name": "Projects",
+              "content": []
+            },
+            {
+              "isFolder": false,
+              "name": "Anapa_2007.jpeg",
+              "content": "Anapa is a resort city in the south of Russia, in the Krasnodar Territory."
+            },
+            {
+              "isFolder": false,
+              "name": "Turkey2020.jpeg",
+              "content": "It was a niceee trip"
+            }
+          ]
+        },
+        {
+          "isFolder": true,
+          "name": "Images",
+          "content": []
+        },
+        {
+          "isFolder": true,
+          "name": "Videos",
+          "content": [
+            {
+              "isFolder": false,
+              "name": "Titanic.mp4",
+              "content": "Titanic is a 1997 American epic romance and disaster film directed, written, produced, and co-edited by James Cameron"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "isFolder": true,
+      "name": "WebStorm",
+      "content": []
+    },
+    {
+      "isFolder": false,
+      "name": "CV.pdf",
+      "content": "CV"
+    },
+    {
+      "isFolder": false,
+      "name": "description.doc",
+      "content": "Integration description"
+    }
+  ]
+}

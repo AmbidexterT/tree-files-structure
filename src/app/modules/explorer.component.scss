@@ -1,0 +1,42 @@
+.tree {
+  display: block;
+}
+
+.tree_header {
+  height: 44px;
+  border-bottom: 0.5px solid rgba(0, 144, 255, 0.35);
+  background-color: rgb(243, 243, 243);
+  padding-left: 20px;
+}
+
+.tree_header_title {
+  height: 44px;
+  line-height: 44px;
+  font-size: 1.3em;
+  font-weight: 500;
+  color: #1e1e1e;
+}
+
+.tree_header_logo {
+  height: 44px;
+  line-height: 44px;
+  font-size: 1.3em;
+  font-weight: 500;
+  color: #ffd342;
+}
+
+.tree_body {
+  display: grid;
+  grid-template: "a b";
+  grid-template-columns: 410px 2fr;
+  min-height: calc(100vh - 44px);
+}
+.tree_body_aside {
+  padding-top: 0;
+  background-color: #ffffff;
+  border-right: 0.5px solid rgba(0, 144, 255, 0.35);
+}
+.tree_body_content {
+  padding: 20px;
+}
+

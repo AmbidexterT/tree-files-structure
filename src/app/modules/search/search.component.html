@@ -1,0 +1,15 @@
+<div class="search">
+<div class="search_form">
+
+  <div class="search_form_icon">
+    <fa-icon  [icon]="faSearch"></fa-icon>
+  </div>
+
+  <input class="search_form_field"
+         placeholder="Search"
+         #searchInput="ngModel"
+         [(ngModel)]="currentInputValue"
+         type="text">
+
+</div>
+</div>

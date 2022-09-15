@@ -1,0 +1,18 @@
+<div class="tree_header">
+  <div class="tree_header_title">
+    <fa-icon  class="tree_header_logo" [icon]="faFolderOpen" *ngIf="isFolderPath"></fa-icon>
+    <fa-icon  class="tree_header_logo" [icon]="faFile" *ngIf="!isFolderPath"></fa-icon>
+    <span style="margin-left: 3px">{{this.pathName}}</span></div>
+</div>
+
+<div class="tree_body">
+  <div class="tree_body_aside">
+
+    <app-search class="tree_body_aside_search"></app-search>
+    <app-path-viewer (select)="refreshSelectedItem($event)"
+                     [rootFolder]="rootFolder"></app-path-viewer>
+  </div>
+  <app-content-page class="explorer_body_content"
+                      [unit]="selectedItem"></app-content-page>
+
+</div>

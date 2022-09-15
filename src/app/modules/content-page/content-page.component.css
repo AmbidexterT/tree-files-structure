@@ -1,0 +1,10 @@
+.content_text {
+  font-weight: bold;
+}
+
+.content {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 auto;
+  padding: 10px;
+}

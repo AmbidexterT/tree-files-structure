@@ -1,0 +1,20 @@
+.file {
+  display: block;
+}
+.file_hide {
+  visibility: hidden;
+  overflow: hidden;
+  height: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.file_title {
+  display: grid;
+  grid-template: "a b";
+  grid-template-columns: 20px 1fr;
+}
+.file_title_have-content {
+  color: black;
+  cursor: pointer;
+}
+

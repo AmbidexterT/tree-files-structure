@@ -1,0 +1,29 @@
+<div class="folder_title"
+     [ngClass]="{'folder_title_have-content': itemsAmount}"
+     (click)="onSelectSelf()"
+     (click)="toggleOpen()">
+  <div class="folder_title_logo">
+    <div *ngIf="isOpen && itemsAmount">
+      <fa-icon  class="file_logo" [icon]="faMinus" ></fa-icon>
+    </div>
+    <div *ngIf="!isOpen && itemsAmount">
+      <fa-icon  class="file_logo" [icon]="faPlus" ></fa-icon>
+    </div>
+    <div *ngIf="!itemsAmount">
+      <fa-icon  class="file_logo" [icon]="faStop" ></fa-icon>
+    </div>
+  </div>
+  <div class="folder_title_name">{{folder.name}}</div>
+</div>
+
+<div class="folder_content"
+     [ngClass]="{'folder_content_hide': !isOpen || !itemsAmount}">
+  <div *ngFor="let item of folder.content">
+    <app-folder *ngIf="!isFile(item)"
+                (select)="onSelectedItem($event)"
+                [folder]="item"></app-folder>
+    <app-file *ngIf="isFile(item)"
+              (select)="onSelectedItem($event)"
+              [file]="item"></app-file>
+  </div>
+</div>

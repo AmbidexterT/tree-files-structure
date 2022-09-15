@@ -1,0 +1,28 @@
+.folder {
+  display: block;
+}
+.folder_hide {
+  visibility: hidden;
+  overflow: hidden;
+  height: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.folder_title {
+  color: gray;
+  display: grid;
+  grid-template: "a b";
+  grid-template-columns: 20px 2fr;
+}
+.folder_title_have-content {
+  color: black;
+  cursor: pointer;
+}
+.folder_content {
+  padding-left: 20px;
+  height: auto;
+  overflow: hidden;
+}
+.folder_content_hide {
+  height: 0;
+}

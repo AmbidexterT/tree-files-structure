@@ -1,0 +1,10 @@
+<div class="container">
+  <div class="row">
+    <div *ngIf="haveElement" class="content">
+      <div><span class="content_text">Path: </span>/{{unit.pathToString}}</div>
+      <div><span class="content_text">Name:  </span>{{unit.item.name}}</div>
+      <div *ngIf="isFile"><span class="content_text">Content: </span>{{unit.item.content}}</div>
+      <div *ngIf="!isFile"><span class="content_text">Amount of elements: </span>{{items}}</div>
+    </div>
+  </div>
+</div>
